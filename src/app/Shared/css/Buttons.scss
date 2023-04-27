@@ -1,0 +1,16 @@
+@import './cores.scss';
+
+.general-button {
+    box-sizing: border-box;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 1px solid $botaoGeral;
+    color: white;
+    margin: 0px;
+    background-color: $botaoGeral;
+    cursor: pointer;
+}
+
+.general-button:active {
+    background-color: $botaoGeralPressionado;
+}

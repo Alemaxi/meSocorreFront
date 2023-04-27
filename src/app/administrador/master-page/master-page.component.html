@@ -1,0 +1,19 @@
+<app-master-page-layout>
+    <app-opcao-esquerda [mostrarOpcao]="false" [titulo]="'Adiconar Exame'">
+        <app-adicionar-exame-opcao></app-adicionar-exame-opcao>
+    </app-opcao-esquerda>
+
+    <app-opcao-esquerda [mostrarOpcao]="true" [titulo]="'Adiconar Especialidade'">
+        <app-adicionar-especialidade-opcao></app-adicionar-especialidade-opcao>
+    </app-opcao-esquerda>
+
+    <app-opcao-esquerda [mostrarOpcao]="false" [titulo]="'Adiconar Hospital'">
+        <app-adicionar-hospital-opcao></app-adicionar-hospital-opcao>
+    </app-opcao-esquerda>
+
+    <app-opcao-esquerda [mostrarOpcao]="false" [titulo]="'Editar Hospital'">
+        <app-editar-hospital-opcao></app-editar-hospital-opcao>
+    </app-opcao-esquerda>
+
+    <router-outlet></router-outlet>
+</app-master-page-layout>

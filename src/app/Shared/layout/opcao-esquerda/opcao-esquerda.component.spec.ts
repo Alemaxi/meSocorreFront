@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MaterPageComponent } from './mater-page.component';
+import { OpcaoEsquerdaComponent } from './opcao-esquerda.component';
 
-describe('MaterPageComponent', () => {
-  let component: MaterPageComponent;
-  let fixture: ComponentFixture<MaterPageComponent>;
+describe('OpcaoEsquerdaComponent', () => {
+  let component: OpcaoEsquerdaComponent;
+  let fixture: ComponentFixture<OpcaoEsquerdaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ MaterPageComponent ]
+      imports: [ OpcaoEsquerdaComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(MaterPageComponent);
+    fixture = TestBed.createComponent(OpcaoEsquerdaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

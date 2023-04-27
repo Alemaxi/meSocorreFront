@@ -1,16 +1,25 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HospitalComponent } from './hospital/hospital.component';
+import { MasterPageComponent } from './master-page/master-page.component';
 
-const routes: Routes = [
+const subRoutes: Routes = [
   {
-    path:'hospitais',
+    path: 'hospitais',
     component: HospitalComponent
   },
   {
     path: '',
     pathMatch: 'full',
     redirectTo: 'hospitais'
+  }
+]
+
+const routes: Routes = [
+  {
+    path: '',
+    component: MasterPageComponent,
+    children: subRoutes
   }
 ]
 

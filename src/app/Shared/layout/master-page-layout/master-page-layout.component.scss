@@ -1,0 +1,48 @@
+@import '../../css/cores.scss';
+
+.toolbar {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    background-color: $principal;
+    margin: 0px;
+}
+
+.corpo {
+    position: relative;
+    width: 100%;
+    height: 92%;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.corpo-conteudo {
+    width: 100%;
+    min-height: 92.5%;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+
+.envelope-corpo{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto ;
+    overflow-x: hidden;
+}
+
+.rodape {
+    width: 100%;
+    height: 56px;
+    background-color: $principal;
+}
+
+.opcoes-laterais {
+    position: absolute;
+    top:0px;
+    left: 60%;
+    width: 40%;
+    height: 100%;
+    background-color: black;
+}

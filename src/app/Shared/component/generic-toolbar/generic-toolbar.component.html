@@ -1,0 +1,22 @@
+<mat-toolbar class="toolbar">
+    <div class="left">
+    </div>
+    <div class="center">
+        <input type="text" class="input-text" placeholder="Filtrar hospitais por nome">
+    </div>
+    <div class="right">
+        <span 
+        class="material-symbols-outlined icon-action" 
+        *ngIf="mostrarPesquisar"
+        (click)="PesquisarClicado()"
+        >
+            search
+        </span>
+        <span 
+        class="material-symbols-outlined icon-action" 
+        *ngIf="mostrarAdicionar"
+        (click)="AdicionarClicado()">
+            add
+        </span>
+    </div>
+</mat-toolbar>

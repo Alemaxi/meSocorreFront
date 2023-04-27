@@ -1,0 +1,42 @@
+@import '../../css/cores.scss';
+@import '../../css/input-text.scss';
+
+.toolbar {
+    background-color: $secundaria;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 20%;
+    height: 100%;
+}
+
+.icon-action{
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.icon-action:hover {
+    color: $principal;
+}

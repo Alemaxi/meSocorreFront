@@ -1,0 +1,27 @@
+@import '../../../Shared/css/input-text.scss';
+@import '../../../Shared/css/Buttons.scss';
+
+.form-exame {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 35px;
+
+    label {
+        margin-bottom: 12px;
+        font-size: 14px;
+    }
+
+    input {
+        @extend .input-text;
+        text-align: start;
+        margin-bottom: 20px;
+    }
+
+    Button {
+        width: 100%;
+        box-sizing: border-box;
+        @extend .general-button;
+        margin: 0px;
+    }
+}

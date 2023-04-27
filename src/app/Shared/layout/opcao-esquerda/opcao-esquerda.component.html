@@ -1,0 +1,15 @@
+<div *ngIf="mostrarOpcao" class="back-opcao-esquerda" (click)="BackClicked()">
+
+</div>
+
+<div 
+class="opcao-esquerda" 
+[class.opcao-esquerda-fechar]="!mostrarOpcao">
+
+    <h1>{{titulo}}</h1>
+
+    <div class="corpo-opcoes">
+        <ng-content></ng-content>
+    </div>
+
+</div>
